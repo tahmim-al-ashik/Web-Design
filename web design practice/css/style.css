@@ -1,0 +1,114 @@
+.overlay{
+    width: 100%;height: 100%;
+    position: absolute;z-index: 4;
+    background: rgba(0,0,0,0.4);
+}
+
+
+
+.titleMessage{
+    height: 250px;width: 100%;position: absolute;
+    z-index: 4;text-align: center;top: 40%;
+}
+
+.titleMessage .heading h4.main{
+    color: #fff;font-size: 40px;
+    letter-spacing: 7px;font-weight:100; 
+}
+.titleMessage .heading p.sub{
+    color: #fff;font-size: 20px;
+    letter-spacing: 7px;font-weight:100; 
+}
+
+.aboutImage{
+    max-width: 100%;
+}
+
+.careerimage{
+    max-width: 100%;
+}
+
+.section{
+    padding: 100px 0;
+}
+.academicSection,.CampusSection{
+    background: #e74c3c;color: #fff;
+}
+
+
+
+
+#navigation{
+    background:#FF3374;padding: 20px 10px;
+}
+
+#navigation li a{
+    color: #fff;
+}
+
+.navbar-nav a:hover {background-color: #ddd;}
+
+
+.navbar-brand,.navbar-brand:hover{
+    color: #fff;
+}
+.navbar-toggler-icon{
+    background: url(../img/icons/prev.png);
+    background-size: 100%;
+}
+
+.footerSection{
+    background: #000;color: #fff;padding:20px 5px;
+}
+
+
+
+
+
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
